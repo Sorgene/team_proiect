@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  font-size: 19px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.garden_navigationbar {
+  height: 230px;
+  font-size: 19px;
+}
+
+.garden_navigationbar .garden_navigationbar_logo .navbar-brand > img {
+  width: 230px;
+  height: 230px;
+}
+
+.garden_navigationbar .garden_navigationbar_button {
+  padding-left: auto;
+}
+
+.content .garden_about .garden_about_title {
+  margin-bottom: 100px;
+}
+
+.content .garden_about .garden_about_img {
+  width: 100%;
+  height: 50vh;
+  background-image: url("https://picsum.photos/1000/500?random=2");
+  margin-bottom: 80px;
+}
+
+.content .garden_about .garden_about_text {
+  margin-bottom: 120px;
+}
+
+.content .garden_about .garden_about_text .garden_about_textup {
+  margin-bottom: 50px;
+}
+
+.content .garden_view {
+  margin-bottom: 100px;
+}
+
+.content .garden_view .garden_view_cloud {
+  margin-bottom: 100px;
+}
+
+.content .garden_view .garden_view_mountain {
+  margin-bottom: 100px;
+}
+
+.content .garden_view .garden_view_season {
+  margin-bottom: 100px;
+}
+
+.content .garden_purpos {
+  margin-bottom: 200px;
+}
+
+.content .garden_walks {
+  margin-bottom: 200px;
+}
+
+.content .garden_walks .garden_walks_text {
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.content .garden_walks .garden_walks_img {
+  margin: auto;
+}
+
+.content .garden_info {
+  margin-bottom: 80px;
+}
+
+.content .garden_info .garden_info_text .garden_info_text_up .garden_info_text_up_zh {
+  margin: 50px;
+}
+
+.content .garden_info .garden_info_text .garden_info_text_down {
+  width: 360px;
+  margin: auto;
+}
+
+.content .garden_info .garden_info_card {
+  margin-bottom: 80px;
+}
+
+.content .garden_info .garden_info_card .garden_info_card_text {
+  margin: 80px;
+}
+
+.content .garden_info_card_button {
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.content .garden_info_dining {
+  margin-bottom: 80px;
+}
+
+.content .garden_info_dining .garden_info_dining_img {
+  margin-bottom: 200px;
+}
+
+.content .garden_footer {
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=garden.css.map */

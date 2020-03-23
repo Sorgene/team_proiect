@@ -7,45 +7,45 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/garden.css" />
 </head>
 
 <body>
-  <nav class="garden_navigationbar navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="garden_navigationbar navbar navbar-expand-lg navbar-light ">
     <div class="garden_navigationbar_logo">
       <a class="navbar-brand" href="#">
-        <img src="./img/LOGO.jpg" alt="">
+        <img src="" alt="">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
 
+    </div>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="garden_navigationbar_button collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">園區介紹</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mr-3">
+          <a class="nav-link active" href="#">園區介紹</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">交通指引</a>
+        <li class="nav-item mr-3">
+          <a class="nav-link active" href="#">交通指引</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">線上預約</a>
+        <li class="nav-item mr-3">
+          <a class="nav-link active" href="#">線上預約</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">當季活動</a>
+        <li class="nav-item mr-3">
+          <a class="nav-link active" href="#">當季活動</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">活動資訊</a>
+        <li class="nav-item mr-3">
+          <a class="nav-link active" href="#">活動資訊</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">近日花況</a>
+        <li class="nav-item mr-5">
+          <a class="nav-link active" href="#">近日花況</a>
         </li>
       </ul>
     </div>
     <!-- facebooks -->
-    <div class="navbar navbar-light bg-light">
+    <div class="navbar navbar-light ">
       <a class="navbar-brand" href="https://www.facebook.com/springmountain0425931201/">
         <img src="./img/facebook.png" width="50" height="50" alt="">
       </a>
@@ -115,9 +115,14 @@
         </div>
       </div>
       <!-- garden_purpos -->
-      <div class="garden_purpos align-self-center">
-        <p>農場設立的宗旨，除了分享美好的景色事物外，更希望能成為繁忙都市人心中的一片淨土，讓生活在鋼筋叢林中的都市人能遠離塵囂，放鬆心情、洗淨心靈的疲憊，特命名為”沐心泉”。　
-        </p>
+      <div class="garden_purpos row">
+        <div class="col-lg-6 col-md-6 order-md-0">
+          <img width="100%" src="https://picsum.photos/1000/800?random=3" alt="">
+        </div>
+        <div class="garden_purpos align-self-center">
+          <p>農場設立的宗旨，除了分享美好的景色事物外，更希望能成為繁忙都市人心中的一片淨土，讓生活在鋼筋叢林中的都市人能遠離塵囂，放鬆心情、洗淨心靈的疲憊，特命名為”沐心泉”。　
+          </p>
+        </div>
       </div>
 
       <!-- garden_walks -->
@@ -164,7 +169,15 @@
             <p class="mt-2 p-2 cardC_txt ">新社美食遠近馳名，其中又以新社沐心泉休閒農場附設餐廳部最為知名。
               <br><br>
               餐廳主人為您預備了精心烹飪的餐點，新鮮的食材，在山林之中和著鳥叫聲的清脆，絕佳的景色與氣氛，在群山環花包圍下，將新社的山、新社的水，新社最美的景色呈現在您眼前。</p>
+            <div class="garden_info_card_button text-center d-block d-md-none">
+              <a href="#">
+                <button type="button " class="btn btn-outline-primary">
+                  <h3>了解更多</h3>
+                </button>
+              </a>
+            </div>
           </div>
+
           <div class="garden_info_card_Camp col-lg-6 col-md-4  ">
             <img width="100%" src="https://picsum.photos/1000/800?random=3" alt="">
             <h3 class="garden_info_card_text text-center">露營區</h3>
@@ -178,7 +191,9 @@
         </div>
         <div class="garden_info_card_button text-center">
           <a href="#">
-            <button type="button " class="btn btn-outline-primary"><h3>了解更多</h3> </button>
+            <button type="button " class="btn btn-outline-primary">
+              <h3>了解更多</h3>
+            </button>
           </a>
         </div>
         <div class="garden_info_dining text-center">
@@ -210,9 +225,6 @@
       </div>
 
 
-
-
-
     </div>
 
 
@@ -220,7 +232,7 @@
 
   <!-- footer -->
   <footer class="garden_footer text-center">
-    <span class="garden_footer_text p-5 ">此頁面內容僅為全端與Python資訊探勘工程師養成班使用</span>
+    <span class="garden_footer_text p-5 "> Team4 © for educational purposes only</span>
   </footer>
 
 
