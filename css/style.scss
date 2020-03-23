@@ -10,6 +10,10 @@ p {
     font-size: 19px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 .garden_navigationbar {
     height: 230px;
     font-size: $font-nav;
@@ -30,7 +34,7 @@ p {
     .garden_about {
 
         .garden_about_title {
-            height: 100px;
+            margin-bottom: 100px;
 
         }
 
@@ -85,7 +89,7 @@ p {
     }
 
     .garden_info {
-        margin-bottom: 200px;
+        margin-bottom: 80px;
 
         .garden_info_text {
             .garden_info_text_up {
@@ -110,12 +114,22 @@ p {
             }
 
         }
-
-        .garden_info_card_button {
-            margin: auto;
-
-        }
     }
 
+    .garden_info_card_button {
+        width: 100%;
 
+        margin-bottom: 200px;
+    }
+
+    .garden_info_dining {
+        margin-bottom: 80px;
+
+        .garden_info_dining_img {
+            margin-bottom: 200px;
+        }
+    }
+    .garden_footer{
+        margin-bottom: 50px;
+    }
 }
