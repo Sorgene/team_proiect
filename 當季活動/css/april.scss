@@ -1,0 +1,65 @@
+.container {
+    width: 100%;
+
+
+
+    .april_banner {
+        height: 100vh;
+        background-image: url("https://picsum.photos/1000/800?random=1");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        ;
+        margin-bottom: 200px;
+
+        .april_banner_text {
+
+            .april_banner_text_title {
+                font-size: 80px;
+                position: absolute;
+                top: 300px;
+                left: 300px;
+
+            }
+
+            .april_banner_text_subtitle {
+
+                font-size: 50px;
+                width: 400px;
+                height: 50px;
+                -moz-transform: rotate(-20deg);
+                -webkit-transform: rotate(-20deg);
+                -o-transform: rotate(-20deg);
+                -ms-transform: rotate(-20deg);
+                transform: rotate(-20deg);
+                position: absolute;
+                top: 320px;
+                left: 350px;
+
+            }
+
+        }
+
+    }
+}
+
+.april_woods {
+    position: relative;
+    width: 100%;
+    .april_woods_middle {
+        width: 60%;       
+    }
+
+    .april_woods_left {
+        width: 40%;
+        position: absolute;
+        left: 0;
+    }
+    .april_woods_right {
+        width: 50%;
+        position: absolute;
+        left: 0;
+    }
+
+    
+}
