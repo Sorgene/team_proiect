@@ -1,65 +1,352 @@
-.container {
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 19px;
+}
+
+h2 {
+    font-size: 67px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+main {
+    overflow: hidden;
+}
+
+.april_banner {
     width: 100%;
+    height: 100vh;
+    background-color: grey;
+    margin-bottom: 200px;
+    position: relative;
 
 
+    .april_banner_text {
+        .april_banner_text_title {
+            font-size: 80px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
 
-    .april_banner {
-        height: 100vh;
-        background-image: url("https://picsum.photos/1000/800?random=1");
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        ;
-        margin-bottom: 200px;
+        .april_banner_text_subtitle {
+            font-size: 50px;
+            // width: 400px;
+            // height: 50px;
+            -moz-transform: rotate(-20deg);
+            -webkit-transform: rotate(-20deg);
+            -o-transform: rotate(-20deg);
+            -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+            position: absolute;
+            top: 320px;
+            left: 350px;
+        }
+    }
 
-        .april_banner_text {
+}
 
-            .april_banner_text_title {
-                font-size: 80px;
-                position: absolute;
-                top: 300px;
-                left: 300px;
+.april_woods {
+    width: 100%;
+    margin-bottom: 200px;
+    position: relative;
 
+    .april_woods_middle {
+        height: 730px;
+        background-color: grey;
+
+        @media (max-width: 1139px) {
+            height: 485px;
+        }
+
+        @media (max-width: 767px) {
+            height: 365px;
+        }
+
+    }
+
+    .april_woods_left {
+        height: 422px;
+        background-color: orange;
+        position: absolute;
+        top: 160px;
+        left: 100px;
+
+        @media (max-width: 1139px) {
+            height: 255px;
+        }
+
+        @media (max-width: 767px) {
+            height: 190px;
+        }
+    }
+
+    .april_woods_square {
+        width: 106px;
+        height: 32px;
+        background-color: orange;
+        position: absolute;
+        top: 275px;
+        right: -20px;
+    }
+
+    .april_woods_right {
+        .april_woods_right_title {
+            width: 395px;
+            position: absolute;
+            top: 100px;
+            right: -40px;
+
+            h2 {
+                font-size: 85px;
             }
+        }
 
-            .april_banner_text_subtitle {
+        .april_woods_right_content {
+            width: 270px;
+            position: absolute;
+            bottom: 200px;
+            right: 0;
 
-                font-size: 50px;
-                width: 400px;
-                height: 50px;
-                -moz-transform: rotate(-20deg);
-                -webkit-transform: rotate(-20deg);
-                -o-transform: rotate(-20deg);
-                -ms-transform: rotate(-20deg);
-                transform: rotate(-20deg);
-                position: absolute;
-                top: 320px;
-                left: 350px;
-
+            p {
+                font-size: 20px;
             }
-
         }
 
     }
 }
 
-.april_woods {
+.april_2block_top {
+    height: 100hv;
     position: relative;
+
+    .april_2block_top_left {
+        background-color: grey;
+        height: 895px;
+    }
+
+    .april_2block_top_right {
+        background-color: orange;
+        height: 895px;
+    }
+}
+
+.april_700m {
     width: 100%;
-    .april_woods_middle {
-        width: 60%;       
+    height: 100vh;
+    background-color: rgb(207, 188, 188);
+    margin-bottom: 400px;
+
+    .april_700m_box {
+        position: relative;
+        width: 100%;
+
+        .april_700m_squareleft {
+            background-color: red;
+            height: 880px;
+            width: 755px;
+            position: absolute;
+            top: -250px;
+            left: -405px;
+        }
+
+        @media (max-width: 1139px) {
+            height: 375px;
+        }
+
+        @media (max-width: 767px) {
+            height: 335px;
+        }
+
+
+        .april_700m_mainimg {
+            justify-content: center;
+            align-content: center;
+
+            .april_700m_content {
+                .april_700m_content_title {
+                    position: absolute;
+                    top: -10px;
+                    left: 240px;
+                }
+
+                .april_700m_content_down {
+                    position: absolute;
+                    top: 70px;
+                    left: 430px;
+                }
+            }
+        }
+    }
+}
+
+.april_700m_squarerighttop {
+    background-color: grey;
+    height: 378px;
+    width: 378px;
+    position: absolute;
+    bottom: 350px;
+    right: -170px;
+}
+
+.april_700m_squarerightbottomAleft {
+    background-color: rgb(40, 148, 98);
+    height: 350px;
+    position: absolute;
+    top: 360px;
+    right: 0px;
+
+}
+
+.april_700m_squarerightbottomBright {
+    background-color: rgb(187, 125, 228);
+    height: 300px;
+    // width: 255px;
+    position: absolute;
+    top: 150px;
+    right: -185px;
+}
+
+
+
+.april_may {
+    width: 100%;
+    margin-bottom: 200px;
+    position: relative;
+
+    .april_may_title {
+        margin-bottom: 100px;
     }
 
-    .april_woods_left {
-        width: 40%;
-        position: absolute;
-        left: 0;
-    }
-    .april_woods_right {
-        width: 50%;
-        position: absolute;
-        left: 0;
+    .april_may_content {
+
+        .april_may_middle {
+            height: 730px;
+            background-color: grey;
+
+            @media (max-width: 1139px) {
+                height: 485px;
+            }
+
+            @media (max-width: 767px) {
+                height: 365px;
+            }
+
+        }
+
+        .april_may_left {
+            height: 422px;
+            background-color: orange;
+            position: absolute;
+            top: 300px;
+            left: 100px;
+
+            @media (max-width: 1139px) {
+                height: 255px;
+                width: 255px;
+            }
+
+            @media (max-width: 767px) {
+                height: 190px;
+                width: 190px;
+            }
+        }
+
+        .april_may_left_content {
+            width: 270px;
+            position: absolute;
+            bottom: -20px;
+            left: 100px;
+        }
+
+        p {
+            font-size: 20px;
+        }
     }
 
-    
+    .april_may_right {
+        width: 374px;
+        height: 374px;
+        background-color: orange;
+        position: absolute;
+        top: 250px;
+        right: 0px;
+
+        @media (max-width: 1139px) {
+            width: 240px;
+            height: 240px;
+        }
+
+        @media (max-width: 767px) {
+            width: 180px;
+            height: 180px;
+        }
+    }
+
+    .april_may_right_content {
+        width: 374px;
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+}
+
+.april_2block_bottum {
+    height: 100hv;
+    position: relative;
+
+    .april_2block_bottum_left {
+        background-color: grey;
+        height: 895px;
+    }
+
+    .april_2block_bottum_right {
+        background-color: orange;
+        height: 895px;
+    }
+}
+
+.april_stay {
+    height: 370px;
+
+}
+
+.april_party {
+    background-color: orange;
+    height: 880px;
+
+}
+
+.april_snow {
+    background-color: grey;
+    height: 600px;
+    padding-top: 180px;
+
+    .april_snow_content {}
+}
+
+.footer {
+    background-color: grey;
+    height: 150px;
 }
