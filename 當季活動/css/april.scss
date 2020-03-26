@@ -54,15 +54,15 @@ p {
     }
 
     h3 {
-        font-size: 36px;
+        font-size: 22px !important;
     }
 
     h4 {
-        font-size: 24px;
+        font-size: 18px !important;
     }
 
     h5 {
-        font-size: 21px;
+        font-size: 16px !important;
     }
 
     p {
@@ -159,13 +159,16 @@ main {
             position: absolute;
             top: 120px;
             left: 0px;
+        }
 
-            @media (max-width: 767px) {
-                height: 190px;
-                width: 190px;
-            }
+        @media (max-width: 767px) {
+            height: 190px;
+            position: absolute;
+            top: 80px;
+            left: 20px;
         }
     }
+
 
     .april_woods_square {
         width: 106px;
@@ -183,9 +186,11 @@ main {
         }
 
         @media (max-width: 767px) {
+            width: 55px;
+            height: 20px;
             position: absolute;
-            top: 100px;
-            right: -40px;
+            top: 160px;
+            right: 55px;
         }
     }
 
@@ -204,8 +209,8 @@ main {
 
             @media (max-width: 767px) {
                 position: absolute;
-                top: 100px;
-                right: -40px;
+                top: 90px;
+                right: -170px;
             }
         }
 
@@ -225,9 +230,12 @@ main {
             }
 
             @media (max-width: 767px) {
+                width: 130px;
                 position: absolute;
-                bottom: 200px;
-                right: 0;
+                bottom: 50px;
+                right: 90px;
+
+
             }
 
         }
@@ -271,7 +279,7 @@ main {
 
     @media (max-width: 767px) {
         height: 400px;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
 
     .april_700m_box {
@@ -296,17 +304,92 @@ main {
             }
 
             @media (max-width: 767px) {
-                height: 375px;
-                width: 270px;
+                height: 335px;
+                width: 198px;
                 position: absolute;
-                top: -100px;
-                left: -25px;
+                top: -45px;
+                left: 0px;
             }
         }
 
         .april_700m_mainimg {
             justify-content: center;
             align-content: center;
+
+            .april_700m_squarerighttop {
+                background-color: grey;
+                height: 378px;
+                width: 378px;
+                position: absolute;
+                bottom: 300px;
+                right: -150px;
+
+                @media (max-width: 1139px) {
+                    height: 175px;
+                    width: 175px;
+                    position: absolute;
+                    top: -310px;
+                    right: 80px;
+
+                }
+
+                @media (max-width: 767px) {
+                    height: 130px;
+                    width: 130px;
+                    position: absolute;
+                    top: -260px;
+                    right: 80px;
+                }
+            }
+
+            .april_700m_squarerightbottomAleft {
+                background-color: rgb(40, 148, 98);
+                height: 350px;
+                position: absolute;
+                top: 280px;
+                right: 0px;
+
+                @media (max-width: 1139px) {
+                    height: 120px;
+                    width: 125px;
+                    position: absolute;
+                    top: 180px;
+                    right: 40px;
+                }
+
+                @media (max-width: 767px) {
+                    height: 90px;
+                    width: 90px;
+                    position: absolute;
+                    top: 120px;
+                    right: 50px;
+                }
+            }
+
+            .april_700m_squarerightbottomBright {
+                background-color: rgb(187, 125, 228);
+                height: 300px;
+                // width: 255px;
+                position: absolute;
+                top: 70px;
+                right: -185px;
+
+                @media (max-width: 1139px) {
+                    height: 100px;
+                    width: 85px;
+                    position: absolute;
+                    top: 100px;
+                    right: -25px;
+                }
+
+                @media (max-width: 767px) {
+                    height: 75px;
+                    width: 65px;
+                    position: absolute;
+                    top: 60px;
+                    right: 0px;
+                }
+            }
 
             .april_700m_content {
                 .april_700m_content_title {
@@ -322,8 +405,8 @@ main {
 
                     @media (max-width: 767px) {
                         position: absolute;
-                        top: -130px;
-                        left: 160px;
+                        top: -70px;
+                        left: 140px;
                     }
                 }
 
@@ -341,8 +424,8 @@ main {
 
                     @media (max-width: 767px) {
                         position: absolute;
-                        top: 10px;
-                        left: 430px;
+                        top: -25px;
+                        left: 220px;
                     }
                 }
             }
@@ -350,80 +433,7 @@ main {
     }
 }
 
-.april_700m_squarerighttop {
-    background-color: grey;
-    height: 378px;
-    width: 378px;
-    position: absolute;
-    bottom: 300px;
-    right: -150px;
 
-    @media (max-width: 1139px) {
-        height: 175px;
-        width: 175px;
-        position: absolute;
-        top: -310px;
-        right: 80px;
-
-    }
-
-    @media (max-width: 767px) {
-        height: 175px;
-        width: 175px;
-        position: absolute;
-        top: -310px;
-        right: 80px;
-    }
-}
-
-.april_700m_squarerightbottomAleft {
-    background-color: rgb(40, 148, 98);
-    height: 350px;
-    position: absolute;
-    top: 280px;
-    right: 0px;
-
-    @media (max-width: 1139px) {
-        height: 120px;
-        width: 125px;
-        position: absolute;
-        top: 180px;
-        right: 40px;
-    }
-
-    @media (max-width: 767px) {
-        height: 120px;
-        width: 125px;
-        position: absolute;
-        top: 180px;
-        right: 50px;
-    }
-}
-
-.april_700m_squarerightbottomBright {
-    background-color: rgb(187, 125, 228);
-    height: 300px;
-    // width: 255px;
-    position: absolute;
-    top: 70px;
-    right: -185px;
-
-    @media (max-width: 1139px) {
-        height: 100px;
-        width: 86px;
-        position: absolute;
-        top: 100px;
-        right: -25px;
-    }
-
-    @media (max-width: 767px) {
-        height: 100px;
-        width: 86px;
-        position: absolute;
-        top: 100px;
-        right: -25px;
-    }
-}
 
 
 
@@ -431,6 +441,7 @@ main {
     width: 100%;
     margin-bottom: 200px;
     position: relative;
+
     @media (max-width: 1139px) {
         margin-bottom: 100px;
     }
@@ -438,6 +449,7 @@ main {
     @media (max-width: 767px) {
         margin-bottom: 60px;
     }
+
     .april_may_title {
         margin-bottom: 100px;
 
@@ -482,11 +494,11 @@ main {
             }
 
             @media (max-width: 767px) {
-                height: 190px;
-                width: 190px;
+                height: 180px;
+                width: 180px;
                 position: absolute;
-                top: 300px;
-                left: 100px;
+                top: 180px;
+                left: 30px;
             }
         }
 
@@ -508,8 +520,8 @@ main {
                 height: 190px;
                 width: 190px;
                 position: absolute;
-                bottom: -200px;
-                left: 0px;
+                bottom: -150px;
+                left: 30px;
             }
         }
 
@@ -526,11 +538,17 @@ main {
         @media (max-width: 1139px) {
             width: 240px;
             height: 240px;
+            position: absolute;
+            top: 170px;
+            right: 0px;
         }
 
         @media (max-width: 767px) {
             width: 180px;
             height: 180px;
+            position: absolute;
+            top: 113px;
+            right: 40px;
         }
     }
 
@@ -548,8 +566,9 @@ main {
 
         @media (max-width: 767px) {
             position: absolute;
-            bottom: 45px;
-            right: -132px;
+            bottom: 20px;
+            right: -155px;
+
         }
 
 
@@ -617,7 +636,12 @@ main {
         height: 290px;
     }
 
-    .april_snow_content {}
+    .april_snow_content {
+        @media (max-width: 767px) {
+            text-align: center;
+        }
+
+    }
 }
 
 
