@@ -7,7 +7,7 @@ body{
 }
 
 .all{
-    .activities_banner{
+    .april_banner{
         width: 100%;
         height: 100vh;
         background-color: grey;
@@ -15,7 +15,7 @@ body{
         align-items: center;
         justify-content: center;
 
-        .activities_banner_content{
+        .april_banner_content{
             align-items: center;
             justify-content: center;
            
@@ -26,7 +26,7 @@ body{
             margin: 0;
             } 
         }
-        .activities_banner_snow{
+        .april_banner_snow{
             transform:rotate(-15deg); 
             position: absolute; 
             p{

@@ -66,10 +66,7 @@ main {
 
 .april_banner {
   width: 100%;
-  height: 100vh;
-  background-color: grey;
   margin-bottom: 200px;
-  position: relative;
 }
 
 @media (max-width: 1139px) {
@@ -84,22 +81,71 @@ main {
   }
 }
 
-.april_banner .april_banner_text .april_banner_text_title {
-  font-size: 80px;
-  top: 0;
+.april_banner .april_banner_video #myVideo {
   right: 0;
   bottom: 0;
-  left: 0;
-  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.april_banner .april_banner_text {
+  width: 100%;
+  position: relative;
 }
 
 .april_banner .april_banner_text .april_banner_text_subtitle {
-  font-size: 50px;
   -webkit-transform: rotate(-20deg);
   transform: rotate(-20deg);
   position: absolute;
-  top: 320px;
-  left: 350px;
+  top: 445px;
+  left: 590px;
+}
+
+@media (max-width: 1139px) {
+  .april_banner .april_banner_text .april_banner_text_subtitle {
+    position: absolute;
+    top: 240px;
+    left: 215px;
+  }
+}
+
+@media (max-width: 767px) {
+  .april_banner .april_banner_text .april_banner_text_subtitle {
+    position: absolute;
+    top: 230px;
+    left: 155px;
+  }
+}
+
+.april_banner .april_banner_text .april_banner_text_title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 440px;
+  left: 320px;
+}
+
+@media (max-width: 1139px) {
+  .april_banner .april_banner_text .april_banner_text_title {
+    position: absolute;
+    top: 240px;
+    left: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .april_banner .april_banner_text .april_banner_text_title {
+    position: absolute;
+    top: 230px;
+    left: 20px;
+  }
+}
+
+.april_banner .april_banner_text .april_banner_text_title h2 {
+  text-align-last: justify;
+  color: white;
+  text-shadow: 0px 0px 8px #fff, 0px 0px 42px #f72, 0px 0px 72px #f84, 0px 0px 150px #fa5;
 }
 
 .april_woods {
