@@ -5,12 +5,36 @@
           box-sizing: border-box;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+@media (max-width: 1139px) {
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 16px;
+  }
+}
+
 p {
   font-size: 19px;
 }
 
-h3 {
-  font-size: 24px;
+@media (max-width: 1139px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 14px;
+  }
 }
 
 .garden_navigationbar {
@@ -159,6 +183,12 @@ h3 {
 
 .content .garden_view .garden_view_box .garden_view_text h3 {
   margin: 70px 0 40px 0;
+}
+
+@media (max-width: 1139px) {
+  .content .garden_view .garden_view_box .garden_view_text h3 {
+    margin: 10px 0 20px 0;
+  }
 }
 
 @media (max-width: 767px) {
