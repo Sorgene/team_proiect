@@ -10,7 +10,7 @@ $font-h3:24px;
 
 h3 {
     font-size: 24px;
-
+color: #000;
     @media (max-width: 1139px) {
         font-size: 20px;
     }
@@ -28,11 +28,15 @@ p {
     }
 
     @media (max-width: 767px) {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
-
+button img{
+    height: 20px;
+    width: 40px;
+    color: blue;
+}
 
 .garden_navigationbar {
     height: 180px;
@@ -146,7 +150,7 @@ p {
         margin-bottom: 200px;
 
         @media (max-width: 1139px) {
-            margin-bottom: 150px;
+            margin-bottom: 100px;
         }
 
         @media (max-width: 767px) {
@@ -164,9 +168,11 @@ p {
 
                 h3 {
                     margin: 70px 0 40px 0;
+
                     @media (max-width: 1139px) {
                         margin: 10px 0 20px 0;
                     }
+
                     @media (max-width: 767px) {
                         margin: 40px 0 30px 0;
                     }
@@ -185,7 +191,7 @@ p {
         margin-bottom: 200px;
 
         @media (max-width: 1139px) {
-            margin-bottom: 150px;
+            margin-bottom: 100px;
         }
 
         @media (max-width: 767px) {
@@ -211,7 +217,7 @@ p {
         margin-bottom: 200px;
 
         @media (max-width: 1139px) {
-            margin-bottom: 150px;
+            margin-bottom: 100px;
         }
 
         @media (max-width: 767px) {
@@ -222,7 +228,7 @@ p {
             margin-bottom: 200px;
 
             @media (max-width: 1139px) {
-                margin-bottom: 150px;
+                margin-bottom: 100px;
             }
 
             @media (max-width: 767px) {
@@ -232,11 +238,29 @@ p {
             .garden_info_text_up {
                 .garden_info_text_up_zh {
                     padding: 50px;
+
+                    @media (max-width: 1139px) {
+                     padding: 30px;
+                    }
+
+                    @media (max-width: 767px) {
+                        padding: 20px;
+                    }
                 }
             }
 
             .garden_info_text_down {
                 width: 360px;
+
+                @media (max-width: 1139px) {
+                    width: 290px;
+                }
+
+                @media (max-width: 767px) {
+
+                    width: 215px;
+                }
+
             }
         }
 
@@ -252,7 +276,15 @@ p {
             }
 
             .garden_info_card_text {
-                margin: 80px;
+                margin: 80px 0;
+
+                @media (max-width: 1139px) {
+                    margin: 40px 0;
+                }
+
+                @media (max-width: 767px) {
+                    margin: 30px 0;
+                }
             }
 
         }
@@ -262,7 +294,7 @@ p {
             margin-bottom: 200px;
 
             @media (max-width: 1139px) {
-                margin-bottom: 150px;
+                margin-bottom: 100px;
             }
 
             @media (max-width: 767px) {
@@ -274,7 +306,7 @@ p {
             margin-bottom: 200px;
 
             @media (max-width: 1139px) {
-                margin-bottom: 150px;
+                margin-bottom: 100px;
             }
 
             @media (max-width: 767px) {
